@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(../img/primerplanoabrazo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 105px;
+    
+}
+
+main {
+    background-image: url(../img/pareja.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    margin-top: 30px;
+    
+}
+
+
+.header-content {
+    color: whitesmoke;
+    font-size: 24px;
+    text-align: center;
+    padding: 1rem;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+    margin-right: 20px;
+    display: inline;
+    font-size: 20px;
+    position: relative;
+    list-style: none;
+}
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3;
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+.imagenfondo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+.carrusel {
+
+}
+
+h3 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.red { 
+    width: 25px;
+    height: 25px;
+    padding: 7px;
+    display: block;
+    text-align: right;
+}
+
+.infototal {
+    display: flex;
+    height: 100%;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.parra {
+    color: black;
+    text-align: left;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    margin: 30px;
+    padding: 30px;
+}
+
+.general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+
+.textoindex {
+    text-align: right;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 30px;
+    justify-content: space-between;
+
+}
+
+.footer {
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: red;
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 30%);
+    }
+    .header {
+        font-size: 10px;
+    }
+    nav {
+        text-align: center;
+    }
+    nav li {
+        display: block;
+        margin: 10 px 0;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        background-color: tomato;
+    }
+}
+
+
